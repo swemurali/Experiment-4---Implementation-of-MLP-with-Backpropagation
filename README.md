@@ -1,4 +1,4 @@
-# Experiment-3---Implementation-of-MLP-with-Backpropagation
+# Experiment-4---Implementation-of-MLP-with-Backpropagation
 
 ## AIM:
 To implement a Multilayer Perceptron for Multi classification
@@ -118,7 +118,7 @@ Normalize our dataset.
 8. Finally, call the functions confusion_matrix(), and the classification_report() in order to evaluate the performance of our classifier.
 
 ## PROGRAM 
-```python
+```
 import pandas as pd
 import sklearn
 from sklearn import preprocessing
@@ -166,37 +166,22 @@ print(classification_report(Y_test,predictions))
 ```
 
 ## OUTPUT 
-### df.head():
-
-![head](https://user-images.githubusercontent.com/93427086/231525624-eb8e180d-3ba0-4aca-bbad-1d5c85efbdec.png)
-
-### X.head():
-
-![xhead](https://user-images.githubusercontent.com/93427086/231525833-a9f2e7ca-da33-4f97-896e-69eca5575b8c.png)
-
-### Y.head():
-
-![yhead](https://user-images.githubusercontent.com/93427086/231527232-c69a6890-f2e3-49f9-a548-b0415d84444d.png)
-
-### Unique Values in Y:
-
-![unique](https://user-images.githubusercontent.com/93427086/231526262-8866dedd-7700-4478-926c-092fdf83ff00.png)
-
-### Transforming Categorical to numerical values:
-
-![Transform](https://user-images.githubusercontent.com/93427086/231527381-0e7df92a-d902-4899-83a8-35c354da60d7.png)
-
-### Predictions:
-
-![Predictions](https://user-images.githubusercontent.com/93427086/231526419-d3cdf437-b48e-4aae-b27d-ae3352a06317.png)
-
-### Confusion Matrix:
-![confusion](https://user-images.githubusercontent.com/93427086/231527014-af589c9a-cd46-4424-baac-de49e750aff9.png)
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/c3564fc6-73aa-41d6-a5da-57b7c0bfaebc)
 
 
-### Classification_report:
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/a4de73fe-1678-4a23-96d5-517490e6f978)
 
-![classification](https://user-images.githubusercontent.com/93427086/231526910-9c0d1266-4d06-45f2-b934-fbef5c106b0b.png)
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/3e68fa97-cb4c-463e-89cd-59022ba8e8f8)
+
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/b8c91e65-984f-45e7-b5a3-9e6f2b43402e)
+
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/eb598fc1-7a65-4b63-bd95-9978d42779dc)
+
+
+![image](https://github.com/21005688/Experiment-4---Implementation-of-MLP-with-Backpropagation/assets/94747031/a4f3c752-2d1a-405c-a4d4-b7714661d0d2)
+ 
+
 
 ## RESULT
+
 Thus, a program to implement Multilayer Perceptron for Multi Classification is successfully created and executed.
